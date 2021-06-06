@@ -1,0 +1,116 @@
+.showPopup {
+  display: flex !important;
+}
+
+.itemPopup {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 530px;
+  min-height: 358px;
+  padding: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.28); 
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.28);
+
+  .closePopup {
+    position: absolute;
+    top: 12px;
+    right: 13px;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    opacity: 0.3;
+    border: none;
+    outline: none;
+    background: transparent;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:before {
+      transform: rotate(45deg);
+    }
+
+    &:after {
+    transform: rotate(-45deg);
+    }
+
+    &::before,
+    &::after {
+      content: ' ';
+      position: absolute;
+      top: -2px;
+      left: 13px;
+      width: 2px;
+      height: 33px;
+      background-color: #333;
+    }
+  }
+
+  .popupHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+
+
+.popupHeader {
+
+
+  .personPhoto {
+    padding-right: 30px;
+  }
+
+  .infoPopup {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    line-height: 26px;
+    margin: 0;
+
+    .infoIcon {
+      padding-bottom: 5px;
+
+      .icon {
+        width: 25px;
+        height: 25px;
+      }
+    }
+
+    .timePopup {
+      font-family: 'ITCFranklinGothicDM', sans-serif;
+      font-size: 17px;
+      font-weight: bold;
+      color: #2573b9;
+    }
+
+    .timePopup,
+    .shortDescriptionPopup {
+      padding-bottom: 3px;
+    }
+
+    .professorPopup {
+      margin: 0;
+    }
+  }
+
+  .descriptionPopup {
+    line-height: 26px;
+  }
+}
+
+
+.shortDescriptionPopup,
+.infoPopup.professorPopup,
+.descriptionPopup {
+  font-family: 'ITCFranklinGothicBk', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}

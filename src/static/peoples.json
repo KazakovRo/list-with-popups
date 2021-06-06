@@ -1,0 +1,44 @@
+{
+	"data": [
+		{
+			"id": "0",
+			"shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"professor": "Prof. Ricardo Reis",
+			"arrowIcon": "###",
+			"subList": {
+				"time": "10h30-10h45",
+				"description": "Pellentesque volutpat scelerisque metus in luctus. Cras egestas aliquam dapibus. Etiam eu vestibulum urna. Duis scelerisque efficitur erat varius tristique. Donec leo justo, ultrices vitae pellentesque quis, tincidunt sit amet magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent rhoncus velit elit, ac pretium nulla feugiat non. Nullam tincidunt sollicitudin quam vel vestibulum. In elit tortor, suscipit quis velit rhoncus, lobortis dictum augue."
+			}
+		},
+		{
+			"id": "1",
+			"shortDescription": "Cras in scelerisque lacus. Class aptent taciti sociosqu ad litora torquent.",
+			"professor": "Prof. Álvaro de Campos",
+			"arrowIcon": "###",
+			"subList": {
+				"time": "10h30-10h45",
+				"description": "Pellentesque volutpat scelerisque metus in luctus. Cras egestas aliquam dapibus. Etiam eu vestibulum urna. Duis scelerisque efficitur erat varius tristique. Donec leo justo, ultrices vitae pellentesque quis, tincidunt sit amet magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent rhoncus velit elit, ac pretium nulla feugiat non. Nullam tincidunt sollicitudin quam vel vestibulum. In elit tortor, suscipit quis velit rhoncus, lobortis dictum augue."
+			}
+		},
+		{
+			"id": "2",
+			"shortDescription": "Nunc a lectus accumsan lorem ornare lobortis vel eu ligula.",
+			"professor": "Prof. Alberto Caeiro",
+			"arrowIcon": "###",
+			"subList": {
+				"time": "10h30-10h45",
+				"description": "Pellentesque volutpat scelerisque metus in luctus. Cras egestas aliquam dapibus. Etiam eu vestibulum urna. Duis scelerisque efficitur erat varius tristique. Donec leo justo, ultrices vitae pellentesque quis, tincidunt sit amet magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent rhoncus velit elit, ac pretium nulla feugiat non. Nullam tincidunt sollicitudin quam vel vestibulum. In elit tortor, suscipit quis velit rhoncus, lobortis dictum augue."
+			}
+		},
+		{
+			"id": "3",
+			"shortDescription": "Vivamus nec dui faucibus, consectetur justo eu, semper ex.",
+			"professor": "Prof. Bernardo Soares",
+			"arrowIcon": "sssssss",
+			"subList": {
+				"time": "10h30-10h45",
+				"description": "Pellentesque volutpat scelerisque metus in luctus. Cras egestas aliquam dapibus. Etiam eu vestibulum urna. Duis scelerisque efficitur erat varius tristique. Donec leo justo, ultrices vitae pellentesque quis, tincidunt sit amet magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent rhoncus velit elit, ac pretium nulla feugiat non. Nullam tincidunt sollicitudin quam vel vestibulum. In elit tortor, suscipit quis velit rhoncus, lobortis dictum augue."
+			}
+		}
+	]
+}

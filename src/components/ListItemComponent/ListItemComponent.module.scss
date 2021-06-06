@@ -1,0 +1,68 @@
+// speaker-item
+// .listItem
+
+//перемістити в стілі для попап 
+// .speaker-item .professor-popup .description {
+//   line-height: 25px;
+// }
+
+.listItem {
+  position: relative;
+  padding-right: 40px;
+
+  &:hover {
+    background: #0f7ee2;
+
+    > P {
+      color: #ffffff;
+
+      .professor {
+        color: #ffffff;
+      }
+    }
+
+    > .chevron:before {
+      color: #ffffff;
+    }
+  }
+}
+
+.chevron {
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  transform: translateY(-50%);
+
+  &::before {
+    content: '';
+    position: relative;
+    top: 0.15em;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    transform: rotate(45deg);
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    vertical-align: top;
+  }
+
+  &:focus-within {
+    display: block;
+  }
+}
+
+
+.itemDescription {
+  font-size: 15px;
+  font-family: 'ITCFranklinGothicBk', sans-serif;
+}
+
+.professor {
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'ITCFranklinGothicDM', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #2573b9;
+}
